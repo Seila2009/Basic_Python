@@ -1,0 +1,11 @@
+English can be a hard language to learn. 
+That is why usually you learn it by levels1. 
+In CERF standard A1 is the beginner level, A2 is harder, but still2 is very easy. 
+Then you have B1 and B2. 
+Highest levels of learning3 are C1 and C2.
+Текстовый файл
+Компьютерный файл
+Текстовые данные
+Данные
+Последовательность символов
+Строки
