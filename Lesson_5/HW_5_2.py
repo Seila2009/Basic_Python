@@ -1,0 +1,10 @@
+file_obj = open(u'example.txt', 'r', encoding='utf-8')
+content = file_obj.read()
+print(f'Содержимое файла:\n {content}')
+file_obj = open(u'example.txt', 'r', encoding='utf-8')
+content = file_obj.readlines()
+print(f'Количество строк: {len(content)}')
+file_obj = open(u'example.txt', 'r', encoding='utf-8')
+content = file_obj.readlines()
+for i in range(len(content)):
+    print(f'Количество знаков в {i + 1} строке: {len(content[i])}')
