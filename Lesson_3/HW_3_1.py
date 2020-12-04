@@ -1,9 +1,9 @@
-def my_func():
-    a = int(input('Введите делимое: '))
-    b = int(input('Введите делитель: '))
-    if b == 0:
-        print('Некорректные значения. Делитель равен нулю.')
-    else:
-        res = a / b
-        return res
-print(round(my_func(), 2))
+def my_func(a, b):
+    try:
+        c = a / b
+        return c
+    except ZeroDivisionError:
+        return "На ноль делить нельзя"
+
+
+print(my_func(int(input("Введите делимое: ")), int(input("Введите делитель: "))))

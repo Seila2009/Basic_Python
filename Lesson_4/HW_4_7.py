@@ -1,10 +1,12 @@
-def fact(n):
+n = int(input("Введите факториал числа, которое нужно узнать: "))
+
+
+def fact():
     res = 1
     for i in range(1, n + 1):
         res *= i
-    return res
+        yield res
 
 
-g = int(input("Введите факториал числа, которое нужно узнать: "))
-for el in range(1, g + 1):
-    print(fact(el))
+for el in fact():
+    print(el)
