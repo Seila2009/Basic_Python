@@ -22,7 +22,8 @@ class Costume(Clothes):
 coat = Coat(40, 30)
 costume = Costume(55, 75)
 clothes = Clothes(Costume, Coat)
+print(get_sq_full())
 print(coat.get_sq_full())
 print(costume.get_sq_full())
-print(get_sq_full())
-# Тут появляется ошибка поподсчету общей суммы, не могу понять как с ней разобраться
+
+# Тут появляется ошибка по подсчету общей суммы, не могу понять как с ней разобраться
